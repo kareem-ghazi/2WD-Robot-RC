@@ -1,5 +1,5 @@
 # 2WD Robot RC using Arduino
-[![Build Status ↗](https://img.shields.io/badge/Build-Passing-brightgreen)](https://github.com/MAzewail/2wd-robot-rc) [↗](https://github.com/MAzewail/2wd-robot-rc)
+[![Build Status ↗](https://img.shields.io/badge/Build-Passing-brightgreen)](https://github.com/MAzewail/2wd-robot-rc)
 
 This repository contains the source code and documentation for a 2WD Robot RC using Arduino. The robot is controlled through a remote control and can move forward, backward, turn left, turn right, and stop.
 
@@ -19,8 +19,8 @@ The following hardware is required to build this project:
 
 To install the software, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/MAzewail/2WD-Robot-RC.git`
-2. Connect the hardware components as shown in the diagram in the `docs` directory.
+1. Clone this repository: `git clone https://github.com/kareem-ghazi/2WD-Robot-RC.git`
+2. Connect the hardware components as shown in the diagram in the `schematic.png`. ![](schematic.png)
 3. Upload the `2wd-robot-rc.ino` sketch to the Arduino board using the Arduino IDE.
 4. Install a Bluetooth terminal app on your remote control device.
 5. Pair the HC-05 Bluetooth module with the remote control device.
@@ -40,6 +40,9 @@ To use the robot, follow these steps:
 - `L`: Turn left
 - `R`: Turn right
 - `S`: Stop
+
+## Tinkercad
+- You can view a live simulaton of the project through the following link on [Tinkercad](https://www.tinkercad.com/things/7PDh9bVA68e-2wd-robot-rc)
 
 ## Contributing
 
